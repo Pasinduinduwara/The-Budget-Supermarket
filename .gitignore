@@ -1,0 +1,47 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.Python
+backend/pip-log.txt
+backend/pip-delete-this-directory.txt
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+
+# Environment variables (contains sensitive data)
+backend/.env
+
+# Node.js
+front end/node_modules/
+front end/dist/
+front end/build/
+front end/.vite/
+front end/.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.temp
+.temp/
+.tmp/
